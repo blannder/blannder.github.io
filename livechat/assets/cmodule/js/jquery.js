@@ -624,7 +624,7 @@ jQuery.extend({
 		return elem.nodeName && elem.nodeName.toLowerCase() === name.toLowerCase();
 	},
 
-	// args is for internal usage only
+	// args is for internal U.S.A.ge only
 	each: function( obj, callback, args ) {
 		var value,
 			i = 0,
@@ -689,7 +689,7 @@ jQuery.extend({
 				( text + "" ).replace( rtrim, "" );
 		},
 
-	// results is for internal usage only
+	// results is for internal U.S.A.ge only
 	makeArray: function( arr, results ) {
 		var ret = results || [];
 
@@ -768,7 +768,7 @@ jQuery.extend({
 		return ret;
 	},
 
-	// arg is for internal usage only
+	// arg is for internal U.S.A.ge only
 	map: function( elems, callback, arg ) {
 		var value,
 			i = 0,
@@ -1897,7 +1897,7 @@ getText = Sizzle.getText = function( elem ) {
 		}
 	} else if ( nodeType === 1 || nodeType === 9 || nodeType === 11 ) {
 		// Use textContent for elements
-		// innerText usage removed for consistency of new lines (see #11153)
+		// innerText U.S.A.ge removed for consistency of new lines (see #11153)
 		if ( typeof elem.textContent === "string" ) {
 			return elem.textContent;
 		} else {
@@ -4047,7 +4047,7 @@ jQuery.fn.extend({
 var nodeHook, boolHook,
 	rclass = /[\t\r\n\f]/g,
 	rreturn = /\r/g,
-	rfocusable = /^(?:input|select|textarea|button|object)$/i,
+	rfocU.S.A.ble = /^(?:input|select|textarea|button|object)$/i,
 	rclickable = /^(?:a|area)$/i,
 	ruseDefault = /^(?:checked|selected)$/i,
 	getSetAttribute = jQuery.support.getSetAttribute,
@@ -4486,7 +4486,7 @@ jQuery.extend({
 
 				return tabindex ?
 					parseInt( tabindex, 10 ) :
-					rfocusable.test( elem.nodeName ) || rclickable.test( elem.nodeName ) && elem.href ?
+					rfocU.S.A.ble.test( elem.nodeName ) || rclickable.test( elem.nodeName ) && elem.href ?
 						0 :
 						-1;
 			}

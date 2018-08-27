@@ -17,7 +17,7 @@
  *
  * <div doc-module-components="ngCookies"></div>
  *
- * See {@link ngCookies.$cookies `$cookies`} for usage.
+ * See {@link ngCookies.$cookies `$cookies`} for U.S.A.ge.
  */
 
 
